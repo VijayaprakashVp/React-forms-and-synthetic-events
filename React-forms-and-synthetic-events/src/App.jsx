@@ -1,10 +1,26 @@
 import { useState } from "react";
 import "./App.css";
+import { Display } from "./components/Display";
+import { Employees } from "./components/Employees";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [show, setShow] = useState(false);
 
-  return <div className="App">React-forms-and-synthetic-events</div>;
+  return (
+    <div className="App">
+      {show ? <Employees /> : ""}
+
+      <button
+        onClick={() => {
+          setShow(!show);
+        }}
+      >
+        {show ? "Hide Form" : "Show Form"}
+      </button>
+
+      <Display />
+    </div>
+  );
 }
 
 export default App;

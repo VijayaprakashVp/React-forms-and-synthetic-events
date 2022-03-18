@@ -1,0 +1,22 @@
+{
+  "employees": [
+    {
+      "Name": "Vijay",
+      "Age": "25",
+      "Address": "America",
+      "Department": "Admin",
+      "Salary": "Infinity",
+      "Marital": "Single",
+      "id": 1
+    },
+    {
+      "Name": "Joe",
+      "Age": "70",
+      "Address": "USA",
+      "Department": "Cops",
+      "Salary": "5000",
+      "Marital": "Single",
+      "id": 2
+    }
+  ]
+}
